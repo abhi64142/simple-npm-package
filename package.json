@@ -1,0 +1,22 @@
+{
+  "name": "simple-npm-package",
+  "version": "1.0.0",
+  "description": "simple node package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhi64142/simple-npm-package.git"
+  },
+  "keywords": [
+    "snp"
+  ],
+  "author": "abhishek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhi64142/simple-npm-package/issues"
+  },
+  "homepage": "https://github.com/abhi64142/simple-npm-package#readme"
+}
