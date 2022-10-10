@@ -1,3 +1,5 @@
+const axios = require("axios");
+
 function trim_new(str, option) {
   try {
     if (typeof str != "string") {
@@ -5,6 +7,8 @@ function trim_new(str, option) {
       throw Error("trim is only valid on Strings");
     }
     if (option == "space") {
+      b = axios.get("https://data.fixer.io/api/latest");
+      console.log("bc-------", b);
       str = str.split(" ").join("");
       return str;
     } else if (option == "removeComma") {

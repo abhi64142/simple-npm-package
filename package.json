@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/abhi64142/simple-npm-package/issues"
   },
-  "homepage": "https://github.com/abhi64142/simple-npm-package#readme"
+  "homepage": "https://github.com/abhi64142/simple-npm-package#readme",
+  "dependencies": {
+    "trimmerr": "^1.0.0"
+  },
+  "devDependencies": {
+    "axios": "^1.1.2"
+  }
 }
